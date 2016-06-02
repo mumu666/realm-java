@@ -9,7 +9,7 @@ configurations.all {
 allprojects {
     def currentVersion = file("${rootDir}/../version.txt").text.trim()
 
-    
+
     buildscript {
         repositories {
             mavenLocal()
